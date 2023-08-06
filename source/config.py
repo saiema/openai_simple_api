@@ -106,7 +106,7 @@ class TestingConfig(Config):
     _testing = True
     _debug = True
     _env = "testing"
-    _secret_key = "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"
+    _secret_key = None
 
 
 configs = {
