@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pyfather"
+version = "0.1.0"
+description = ""
+authors = ["Simón Gutiérrez Brida <simon.gutierrez.brida@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest-bdd = "^6.1.1"
+behave = "^1.2.6"
+openai = "^0.27.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
